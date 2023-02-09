@@ -1,2 +1,2 @@
 #!/bin/bash
-telnet http://towel.blinkenlights.nl/
+chmod +x http://towel.blinkenlights.nl/
