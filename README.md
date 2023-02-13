@@ -1,1 +1,2 @@
-This repository contains solutions to shell tasks
+#!/bin/bash
+Special characters for shell scripts
