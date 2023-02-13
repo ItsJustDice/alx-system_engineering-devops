@@ -1,2 +1,0 @@
-#!/bini/bash
-sort | uniq -u
