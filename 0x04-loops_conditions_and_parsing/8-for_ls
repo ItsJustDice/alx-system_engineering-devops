@@ -7,4 +7,10 @@
 for f in *; do
     echo "$f" | cut -d '-' -f 2
 
+<<<<<<< HEAD
+=======
+list=$(ls)
+for j in $list; do
+  echo "$j" | cut -d '-' -f2
+>>>>>>> c98ab08109521f80c4d055c33b948e6f96d2ff90
 done
