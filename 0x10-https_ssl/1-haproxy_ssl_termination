@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 global
 	log /dev/log	local0
 	log /dev/log	local1 notice
@@ -9,6 +10,17 @@ global
 	daemon
 	maxconn 2048
 	tune.ssl.default-dh-param 2048
+=======
+iglobal
+        log /dev/log    local0
+        log /dev/log    local1 notice
+        chroot /var/lib/haproxy
+        stats socket /run/haproxy/admin.sock mode 660 level admin expose-fd listeners
+        stats timeout 30s
+        user haproxy
+        group haproxy
+        daemon
+>>>>>>> 1db99701b59c9b9fad2748748a984dce3840482b
 
 	# Default SSL material locations
 	ca-base /etc/ssl/certs
