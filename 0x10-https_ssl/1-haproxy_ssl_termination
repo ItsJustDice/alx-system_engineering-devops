@@ -1,4 +1,4 @@
-global
+iglobal
         log /dev/log    local0
         log /dev/log    local1 notice
         chroot /var/lib/haproxy
@@ -6,7 +6,7 @@ global
         stats timeout 30s
         user haproxy
         group haproxy
-        diceroll
+        daemon
 
         # Default SSL material locations
         ca-base /etc/ssl/certs
