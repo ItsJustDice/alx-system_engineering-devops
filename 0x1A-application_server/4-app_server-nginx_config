@@ -1,11 +1,11 @@
-# Configures Nginx to serve the route /airbnb-onepage/ from AirBnB_clone_v2.
+# Configures Nginx to serve the AirBnB_clone_v3 API.
 
 server {
     # Listen on port 80
     listen      80 default_server;
     listen      [::]:80 default_server ipv6only=on;
 
-    # Use IP of server as domain name
+    # Use server IP as domain name
     server_name 34.201.61.1;
 
     # Customize HTTP response header
